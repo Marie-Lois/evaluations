@@ -2,7 +2,9 @@
 date
 
 
-list=$(ls $1) 
+list=$(ls $1)
+
+find $2
 
 
 if [ -n "$list" ]
