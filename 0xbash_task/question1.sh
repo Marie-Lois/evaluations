@@ -1,6 +1,8 @@
 #!/bin/bash
 date
-ls 
+
+
+ls $1 
 
 name="Marie-lois"
 echo "Hello, $name"
