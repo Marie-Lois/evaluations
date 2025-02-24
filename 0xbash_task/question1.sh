@@ -1,5 +1,5 @@
 #!/bin/bash
-date
+time (date
 
 
 list=$(ls $1)
@@ -15,3 +15,4 @@ else
 fi
 name="Marie-lois"
 echo "Hello, $name"
+) &> log.txt
